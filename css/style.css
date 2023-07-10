@@ -60,6 +60,36 @@ body {
 
 
 
+/* deal part */
+.hot-deal {
+    display: flex;
+    align-items: center;
+    background: #FEF6F8;
+    padding: 60px 0;
+}
+
+.deal-left {
+    text-align: center;
+    width: 60%;
+}
+
+.deal-title {
+    font-size: 40px;
+}
+
+.discount-color {
+    color: #E55473;
+}
+
+.deal-para {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.deal-right {
+    width: 40%;
+}
+
+.deal-flowers {}
+
 /*  part */
-/*  part */
-.flowers-title {}
