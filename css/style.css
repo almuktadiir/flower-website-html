@@ -7,7 +7,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.para-primary {}
+.title-primary {
+    font-size: 40px;
+    font-weight: 800;
+}
 
 .btn-primary {
     width: 100px;
@@ -58,6 +61,86 @@ body {
     margin-top: 35px;
 }
 
+/* featured flower part  */
+.featured-flower {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.featured-text {
+    padding: 15px 500px;
+    font-size: 18px;
+    color: #7C7778;
+    margin-bottom: 50px;
+}
+
+.flower-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 33%;
+    text-align: right;
+}
+
+.box1 img {
+    width: 175px;
+    padding: 50px 50px 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: pink;
+}
+
+.link-btn1 {
+    display: block;
+    margin-top: 20px;
+    margin-right: 80px;
+    color: black;
+    font-size: 18px;
+}
+
+.link-btn2 {
+    display: block;
+    margin-top: 20px;
+    color: black;
+    font-size: 18px;
+}
+
+.link-btn3 {
+    display: block;
+    margin-top: 20px;
+    margin-left: 80px;
+    color: black;
+    font-size: 18px;
+}
+
+.box2 {
+    width: 33%;
+    text-align: center;
+}
+
+.box2 img {
+    width: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: #D9EFF1;
+    padding: 45px;
+}
+
+.box3 {
+    width: 33%;
+    text-align: left;
+}
+
+.box3 img {
+    width: 175px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: #E3EBDB;
+    padding: 30px 50px 0;
+}
 
 
 /* deal part */
@@ -72,11 +155,7 @@ body {
 .deal-left {
     text-align: center;
     width: 60%;
-}
-
-.deal-title {
-    font-size: 40px;
-    font-weight: 800;
+    margin-left: 100px;
 }
 
 .discount-color {
@@ -104,11 +183,6 @@ body {
     margin: 25px 0;
 }
 
-.insta-title {
-    font-size: 40px;
-    font-weight: 800;
-}
-
 .insta-para {
     padding: 15px 500px;
     font-size: 18px;
@@ -117,26 +191,15 @@ body {
 
 .insta-img {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
-    width: 300px;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.insta-img1 img {
-    width: 300px;
-}
-
-.insta-img2 img {
-    width: 300px;
-}
-
-.insta-img3 img {
-    width: 300px;
-}
-
-.insta-img4 img {
-    width: 300px;
+.insta-all-img img {
+    width: 235px;
 }
 
 
@@ -146,14 +209,9 @@ body {
     background: url(../images/Rectangle\ 9.png);
     padding: 100px 0;
     text-align: center;
-    width: 83%;
+    width: 77%;
     margin: 100px auto;
     border-radius: 7px;
-}
-
-.subscribe-title h2 {
-    font-size: 40px;
-    font-weight: 800;
 }
 
 .subscribe-text p {
@@ -163,7 +221,7 @@ body {
 }
 
 .email-field {
-    width: 485px;
+    width: 420px;
     padding: 10px 10px;
     border: 0;
     border-radius: 5px;
@@ -179,11 +237,6 @@ footer {
     color: white;
     padding: 100px 0;
     text-align: center;
-}
-
-.footer-title h2 {
-    font-size: 40px;
-    font-weight: 800;
 }
 
 .title-color {
