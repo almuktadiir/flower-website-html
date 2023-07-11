@@ -76,6 +76,7 @@ body {
 
 .deal-title {
     font-size: 40px;
+    font-weight: 800;
 }
 
 .discount-color {
@@ -140,13 +141,63 @@ body {
 
 
 
+/* subscribe part */
+.subscribe {
+    background: url(../images/Rectangle\ 9.png);
+    padding: 100px 0;
+    text-align: center;
+    width: 83%;
+    margin: 100px auto;
+    border-radius: 7px;
+}
 
-.insta-img {}
+.subscribe-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
 
-.insta-img {}
+.subscribe-text p {
+    font-size: 18px;
+    color: #7C7778;
+    padding: 15px;
+}
 
-.insta-img {}
+.email-field {
+    width: 485px;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-top: 15px;
+    font-size: 14px;
+}
 
-.insta-img {}
 
-.insta-img {}
+/* footer part  */
+footer {
+    background-color: black;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.footer-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title-color {
+    color: #E55473;
+}
+
+.footer-text p {
+    padding: 20px 465px;
+    font-size: 18px;
+    color: #E7E7E7;
+}
+
+.footer-copy-right p {
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+}
