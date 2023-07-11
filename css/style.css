@@ -66,6 +66,7 @@ body {
     align-items: center;
     background: #FEF6F8;
     padding: 60px 0;
+    margin: 70px 0;
 }
 
 .deal-left {
@@ -84,12 +85,68 @@ body {
 .deal-para {
     font-size: 18px;
     margin: 20px 0;
+    color: #7C7778;
 }
 
 .deal-right {
     width: 40%;
 }
 
-.deal-flowers {}
 
-/*  part */
+/* insta part */
+.insta {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.insta-text {
+    margin: 25px 0;
+}
+
+.insta-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-para {
+    padding: 15px 500px;
+    font-size: 18px;
+    color: #7C7778;
+}
+
+.insta-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+}
+
+.insta-img1 img {
+    width: 300px;
+}
+
+.insta-img2 img {
+    width: 300px;
+}
+
+.insta-img3 img {
+    width: 300px;
+}
+
+.insta-img4 img {
+    width: 300px;
+}
+
+
+
+
+.insta-img {}
+
+.insta-img {}
+
+.insta-img {}
+
+.insta-img {}
+
+.insta-img {}
